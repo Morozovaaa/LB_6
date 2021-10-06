@@ -1,0 +1,225 @@
+@font-face{
+	font-family: "Decomart FF 4F";
+	font-style:normal;
+}
+
+body{
+    margin:0;
+    font-family: "Decomart FF 4F";
+    font-size: 36px;
+    line-height: 46px;
+    color:#FFFFFF;
+    background-color:#213348;
+    height: 100vh;
+    width:100%;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+.pic__1{
+  position: absolute;
+  left: 178px;
+  top: 173px;
+}
+.text__1{
+  position: absolute;
+  left: 10.6%;
+  right: 60.48%;
+  top: 50.69%;
+  bottom: 91.39%;
+  font-weight: normal;
+  font-size: 95px;
+  line-height: 145px;
+}
+.text__2{
+  position: absolute;
+  left: 14.6%;
+  top: 69.68%;
+  bottom: 89.51%;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 55px;
+}
+.pic__2{
+  position: absolute;
+  width: 893px;
+  height: 1120.22px;
+  left: 1085px;
+  top: 1250px;
+}
+.text__3{
+  position: absolute;
+  width: 924px;
+  height: 937px;
+  left: 188px;
+  top: 1398px;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 200.9%;
+  letter-spacing: 0.065em;
+  line-height: 
+}
+.pic__3{
+  position: absolute;
+  width: 2171px;
+  height: 1015px;
+  left: 0px;
+  top: 2532px;
+}
+.text__4{
+  position: absolute;
+  width: 1709px;
+  height: 811px;
+  left: 300px;
+  top: 3689px;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 160.9%;
+  letter-spacing: 0.055em;
+}
+.pic__4{
+  position: absolute;
+  width: 1437px;
+  height: 932px;
+  left: 398px;
+  top: 4810px;
+}
+.text__5{
+  position: absolute;
+  width: 1464px;
+  height: 374px;
+  left: 355px;
+  top: 5695px;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 106.4%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  text-transform: lowercase;
+}
+.pic__5{
+  position: absolute;
+  width: 1485.68px;
+  height: 1089.65px;
+  left: 132px;
+  top: 6152px;
+}
+.text__6{
+  position: absolute;
+  width: 883px;
+  height: 528px;
+  left: 1176px;
+  top: 6688px;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 109.4%;
+  letter-spacing: 0.055em;
+}
+
+* {
+   box-sizing: border-box;
+}
+.transparent {
+   position: relative;
+   top:7300px;
+   max-width: 400px;
+   padding: 60px 50px;
+   margin: 50px auto 0;
+   background-image: url(https://i.pinimg.com/originals/10/1e/48/101e480916d4cf996565a7f8d221cd2d.jpg);
+   background-size: cover;
+}
+.transparent:before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: linear-gradient(to right bottom, rgba(43, 44, 78, .5), #213348);
+}
+.form-inner {
+   position: relative;
+}
+.form-inner h3 {
+   position: relative;
+   margin-top: 0;
+   color: white;
+   font-weight: 300;
+   font-size: 26px;
+   text-transform: uppercase;
+}
+.form-inner h3:after {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: -6px;
+   height: 2px;
+   width: 60px;
+   background:#213348;
+}
+.form-inner label {
+   display: block;
+   padding-left: 15px;
+   color: rgba(255, 255, 255, .6);
+   text-transform: uppercase;
+   font-size: 17px;
+}
+.form-inner input {
+   display: block;
+   width: 100%;
+   padding: 0 15px;
+   margin: 10px 0 15px;
+   border-width: 0;
+   line-height: 40px;
+   border-radius: 20px;
+   color: white;
+   background: rgba(255, 255, 255, .2);
+}
+.form-inner input[type="checkbox"] {
+   position: absolute;
+   opacity: 0;
+}
+#custom-checkbox+label {
+   position: relative;
+   margin: 20px 0;
+   text-transform: none;
+   cursor: pointer;
+}
+#custom-checkbox+label:before {
+   content: "";
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+   vertical-align: text-top;
+   background: white;
+}
+#custom-checkbox:checked+label:before {
+   background: #213348;
+}
+#custom-checkbox:checked+label:after {
+   content: "";
+   position: absolute;
+   width: 2px;
+   height: 2px;
+   left: 20px;
+   top: 9px;
+   background: white;
+   box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+   transform: rotate(45deg);
+}
+.form-inner input[type="submit"] {
+   background:#213348;
+}
+.pic__6{
+ 
+  width: 831px;
+  height: 0px;
+  left: 151px;
+  top: 1354px;
+}
